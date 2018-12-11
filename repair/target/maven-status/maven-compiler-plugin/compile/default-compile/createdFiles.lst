@@ -1,0 +1,7 @@
+nl/davinci/docstreet/angular/client/components/BasicHeader$BasicHeaderUiBinder.class
+nl/davinci/docstreet/angular/client/components/RepairWidget.class
+nl/davinci/docstreet/angular/client/resources/RepairWidgetResources.class
+nl/davinci/docstreet/angular/client/components/BasicHeader.class
+nl/davinci/docstreet/angular/client/events/FocusSetEvent.class
+nl/davinci/docstreet/angular/client/events/CastedEventListener.class
+nl/davinci/docstreet/angular/client/components/RepairWidget$RepairWidgetUiBinder.class

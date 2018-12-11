@@ -1,0 +1,12 @@
+nl/davinci/docstreet/angular/server/web/TodoController.class
+nl/davinci/docstreet/angular/client/GwtWebAppGinjector.class
+nl/davinci/docstreet/angular/client/resource/Messages.class
+nl/davinci/docstreet/angular/server/ServerApplication.class
+nl/davinci/docstreet/angular/client/resource/ApplicationResources.class
+nl/davinci/docstreet/angular/client/GwtWebApp.class
+nl/davinci/docstreet/angular/client/resource/GwtWebAppStyles.class
+nl/davinci/docstreet/angular/client/ui/MainPanel.class
+nl/davinci/docstreet/angular/common/model/Todo.class
+nl/davinci/docstreet/angular/client/ui/MainPanel$MainPanelUiBinder.class
+nl/davinci/docstreet/angular/common/FieldVerifier.class
+nl/davinci/docstreet/angular/client/GwtWebAppGinModule.class

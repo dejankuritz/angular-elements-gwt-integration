@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+			 xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:HTMLPanel>
+		<h2>Document repair widget container</h2>
+		<br />
+		<hr />
+		<g:Label ui:field="repairWidgetFocusValue" />
+		<br />
+		<g:Button text="Show repair widget" ui:field="showRepairWidgetButton" />
+		<br />
+		<hr />
+
+	</g:HTMLPanel>
+
+</ui:UiBinder>

@@ -1,0 +1,34 @@
+2018-12-07 08:09:00 [main] INFO  n.d.d.a.server.ServerApplication - Starting ServerApplication on DKURIC-NTB with PID 14927 (/home/dkuric/Projects/docs-angular-demo2/demo/target/demo/WEB-INF/classes started by dkuric in /home/dkuric/Projects/docs-angular-demo2) 
+2018-12-07 08:09:00 [main] INFO  n.d.d.a.server.ServerApplication - No active profile set, falling back to default profiles: default 
+2018-12-07 08:09:00 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Fri Dec 07 09:09:00 CET 2018]; root of context hierarchy 
+2018-12-07 08:09:02 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-12-07 08:09:02 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3078ms 
+2018-12-07 08:09:02 [main] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainerFactory - Server initialized with port: 8080 
+2018-12-07 08:09:02 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.17.v20160517 
+2018-12-07 08:09:02 [main] INFO  application - Initializing Spring embedded WebApplicationContext 
+2018-12-07 08:09:02 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1516 ms 
+2018-12-07 08:09:02 [main] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+2018-12-07 08:09:02 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+2018-12-07 08:09:02 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+2018-12-07 08:09:02 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+2018-12-07 08:09:02 [main] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+2018-12-07 08:09:02 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@4a67318f{/,file:/tmp/jetty-docbase.1165882820339047224.8080/,AVAILABLE} 
+2018-12-07 08:09:02 [main] INFO  org.eclipse.jetty.server.Server - Started @3399ms 
+2018-12-07 08:09:02 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Fri Dec 07 09:09:00 CET 2018]; root of context hierarchy 
+2018-12-07 08:09:02 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+2018-12-07 08:09:02 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+2018-12-07 08:09:02 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-12-07 08:09:02 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-12-07 08:09:02 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-12-07 08:09:03 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+2018-12-07 08:09:03 [main] INFO  application - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+2018-12-07 08:09:03 [main] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+2018-12-07 08:09:03 [main] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms 
+2018-12-07 08:09:03 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@1280851e{HTTP/1.1}{0.0.0.0:8080} 
+2018-12-07 08:09:03 [main] INFO  o.s.b.c.e.j.JettyEmbeddedServletContainer - Jetty started on port(s) 8080 (http/1.1) 
+2018-12-07 08:09:03 [main] INFO  n.d.d.a.server.ServerApplication - Started ServerApplication in 2.542 seconds (JVM running for 3.809) 
+2018-12-07 08:12:13 [Thread-17] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@323b36e0: startup date [Fri Dec 07 09:09:00 CET 2018]; root of context hierarchy 
+2018-12-07 08:12:13 [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+2018-12-07 08:12:13 [Thread-17] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@1280851e{HTTP/1.1}{0.0.0.0:8080} 
+2018-12-07 08:12:13 [Thread-17] INFO  application - Destroying Spring FrameworkServlet 'dispatcherServlet' 
+2018-12-07 08:12:13 [Thread-17] INFO  o.e.j.server.handler.ContextHandler - Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@4a67318f{/,file:/tmp/jetty-docbase.1165882820339047224.8080/,UNAVAILABLE} 
