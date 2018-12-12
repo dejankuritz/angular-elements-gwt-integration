@@ -5,10 +5,12 @@ import {AppRoutingModule} from './app-routing.module';
 import {createCustomElement} from "@angular/elements";
 import {RepairWidgetComponent} from './repair-widget/repair-widget.component';
 import {APP_BASE_HREF} from "@angular/common";
+import { FocusInputComponent } from './focus-input/focus-input.component';
 
 @NgModule({
 	declarations: [
-		RepairWidgetComponent
+		RepairWidgetComponent,
+		FocusInputComponent
 	],
 	imports: [
 		BrowserModule,

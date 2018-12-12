@@ -1,4 +1,5 @@
-import {ChangeDetectorRef, Component, EventEmitter, Input, Output} from '@angular/core';
+import {Component, EventEmitter, Input, Output, ViewChild} from '@angular/core';
+import {FocusInputComponent} from "../focus-input/focus-input.component";
 
 @Component({
 	selector: 'repair-widget',
@@ -12,23 +13,18 @@ export class RepairWidgetComponent {
 	@Output('onFocusSet')
 	focusSetEventEmitter: EventEmitter<string> = new EventEmitter();
 
-	focus: string;
-	focusSet = false;
+	@ViewChild('focusInput')
+	focusInput: FocusInputComponent;
 
-	constructor(private changeDetector: ChangeDetectorRef) {
+	constructor() {
+	}
 
+	emitFocusSet(value) {
+		this.focusSetEventEmitter.emit(value);
 	}
 
 	@Input()
 	public clearFocus = () => {
-		this.focus = null;
-		this.focusSet = false;
-		this.changeDetector.detectChanges();
+		this.focusInput.clearFocus();
 	};
-
-	setFocus(value) {
-		this.focus = value;
-		this.focusSet = true;
-		this.focusSetEventEmitter.emit(value);
-	}
 }
